@@ -153,6 +153,41 @@ nav .right a:last-child {
     margin-top: 5px;
 }
 
+.projects{
+    margin-bottom: 50px;
+}
+.project-cells{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 600px;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.projects h2{
+    font-size: 45px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.project-cell{
+    border: 2px solid #4a76ee;
+    border-radius: 4%;
+    width: 450px;
+    background-color: white;
+    box-shadow: #838486;
+}
+.project-cell img{
+    width: 100%;
+    border-bottom:2px solid #4a76ee ;
+    border-radius: 4%;
+}
+.project-cell p{
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding : 10px; 
+    border-radius: 4%;
+}
+
 .contact-section {
     padding: 0 50px;
     margin-bottom: 100px;
