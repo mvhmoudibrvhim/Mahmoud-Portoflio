@@ -261,7 +261,17 @@ textarea {
 
 
 @media (max-width: 750px) {
-   
+      nav a span{
+       font-size: 1.2rem; 
+       line-height: 1.2;
+    }
+    nav .right{
+        display: flex;
+        flex-wrap: no wrap;
+        flex-shrink: 0;
+    }
+
+    
     .left span{
         font-size: 20px;
     }
