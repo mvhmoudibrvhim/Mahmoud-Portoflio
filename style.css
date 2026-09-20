@@ -163,7 +163,7 @@ nav .right a:last-child {
   
     flex-wrap: wrap;
     gap: 2rem;
-    margin: 0 10px;
+    margin: 0 30px;
 }
 .projects h2{
     font-size: 45px;
@@ -286,7 +286,7 @@ textarea {
         padding: 0 20px;
     }
 
-    .skills-section h2 {
+    h2 {
         font-size: 30px;
     }
 
