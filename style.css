@@ -160,9 +160,10 @@ nav .right a:last-child {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* min-width: 600px; */
+  
     flex-wrap: wrap;
     gap: 2rem;
+    margin: 0 10px;
 }
 .projects h2{
     font-size: 45px;
@@ -170,6 +171,7 @@ nav .right a:last-child {
     text-align: center;
 }
 .project-cell{
+    flex: 1 1 300px;
     border: 2px solid #4a76ee;
     border-radius: 4%;
     width: 450px;
