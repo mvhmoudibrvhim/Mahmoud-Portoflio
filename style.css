@@ -244,12 +244,14 @@ textarea {
 
 @media (max-width: 800px) {
 
-    nav {
-        padding: 0 20px;
+    nav a span{
+       font-size: 1.2rem; 
+       line-height: 1.2;
     }
-
-    nav .right a span {
-        display: none;
+    nav .right{
+        display: flex;
+        flex-wrap: no wrap;
+        flex-shrink: 0;
     }
 
     nav .right a:last-child {
